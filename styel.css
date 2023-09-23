@@ -1,0 +1,341 @@
+.home{
+    background-image: url(intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+position: relative;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 30px !important;
+}
+.nav-link{
+    color: white !important;
+    transition: all ;
+}
+.nav-link:hover{
+   text-decoration:underline;
+}
+.up-iucon{
+text-align: center;
+margin-top:15px;
+    background-color:blue;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    border-radius: 50%;
+}
+.up-iucon .fa{
+    color: white !important;
+    margin-top: 13px;
+}
+/* CEO DevFolio */
+/* ,Web Developer */
+/* Web Designer, */
+/* Frontend Developer, */
+/* Graphic Designer */
+.home p{
+    font-size: 2.5rem;
+}
+.home p::after{
+    position: absolute;
+    content: "l";
+  animation: table 10s linear infinite alternate;
+}
+@keyframes table{
+    0%{content:"C";}
+    1%{content:"CE";}
+    2%{content:"CE";}
+    3%{content:"CEO";}
+    4%{content:"CEO ";}
+    5%{content:"CEO D";}
+    6%{content:"CEO De";}
+    7%{content:"CEO Dev";}
+    8%{content:"CEO DevF";}
+    9%{content:"CEO DevFo";}
+    0%{content:"CEO DevFol";}
+    10%{content:"CEO DevFoli";}
+    11%{content:"CEO DevFolio";}
+    12%{content:"CEO DevFoli";}
+    13%{content:"CEO DevFol";}
+    14%{content:"CEO DevFo";}
+    15%{content:"CEO DevF";}
+    16%{content:"CEO Dev";}
+    17%{content:"CEO De";}
+    18%{content:"CEO D";}
+    19%{content:"CEO ";}
+    20%{content:"CEO";}
+    21%{content:"CE";}
+    22%{content:"C";}
+    23%{content:", ";}
+    24%{content:",W ";}
+    25%{content:",We ";}
+    26%{content:",Web ";}
+    27%{content:",Web  ";}
+    28%{content:",Web D";}
+    29%{content:",Web De ";}
+    30%{content:",Web Dev";}
+    31%{content:",Web Deve ";}
+    32%{content:",Web Devel ";}
+34%{content:",Web Develo ";}
+    35%{content:",Web Develop ";}
+    36%{content:",Web Develope ";}
+    37%{content:",Web Developer ";}
+    38%{content:",Web Develope ";}
+    39%{content:",Web Develop ";}
+    40%{content:",Web Develo ";}
+    41%{content:",Web Devel ";}
+    42%{content:",Web Deve ";}
+    43%{content:",Web Dev ";}
+    44%{content:",Web De ";}
+    45%{content:",Web D ";}
+    46%{content:",Web  ";}
+    46%{content:",Web";}
+    47%{content:",We ";}
+    48%{content:",W ";}
+    49%{content:" F";}
+    50%{content:" Fr";}
+    50%{content:" Fro";}
+    50%{content:" Fron";}
+    50%{content:" Front";}
+    51%{content:" Fronte";}
+    52%{content:" Fronten";}
+    53%{content:" Frontend";}
+54%{content:" Frontend ";}
+    55%{content:" Frontend D";}
+    56%{content:" Frontend De";}
+    57%{content:" Frontend Dev";}
+    58%{content:" Frontend Deve";}
+    59%{content:" Frontend Devel";}
+    60%{content:" Frontend Develo";}
+    60%{content:" Frontend Develop";}
+    61%{content:" Frontend Develope";}
+    62%{content:" Frontend Developer";}
+    63%{content:" Frontend Developer,";}
+    64%{content:" Frontend Developer";}
+    65%{content:" Frontend Develope";}
+    66%{content:" Frontend Develop";}
+    67%{content:" Frontend Develo";}
+    68%{content:" Frontend Devel";}
+    69%{content:" Frontend Deve";}
+    70%{content:" Frontend Dev";}
+    70%{content:" Frontend De";}
+    70%{content:" Frontend D";}
+71%{content:" Frontend ";}
+    72%{content:" Frontend";}
+    73%{content:" Fronten";}
+    74%{content:" Fronte";}
+    75%{content:" Front";}
+    76%{content:" Fron";}
+    77%{content:" Fro";}
+    78%{content:" Fr";}
+    79%{content:" F";}
+    80%{content:"  G";}
+    80%{content:"  Gr";}
+    80%{content:"  Gra";}
+    81%{content:"  Grap";}
+    82%{content:"  Graph";}
+    83%{content:"  Graphi";}
+    84%{content:"  Graphic";}
+    85%{content:"  Graphic ";}
+    86%{content:"  Graphic D";}
+    87%{content:"  Graphic De";}
+    88%{content:"  Graphic Des";}
+    89%{content:"  Graphic Desi";}
+    90%{content:"  Graphic Desig";}
+    90%{content:"  Graphic Design";}
+    90%{content:"  Graphic Designe";}
+    91%{content:"  Graphic Designer";}
+    92%{content:"  Graphic Designe";}
+    93%{content:"  Graphic Design";}
+    94%{content:"  Graphic Desig";}
+    95%{content:"  Graphic Desi";}
+    96%{content:"  Graphic Des";}
+    97%{content:"  Graphic De";}
+    98%{content:"  Graphic D";}
+    98%{content:"  Graphic ";}
+    98%{content:"  Graphic";}
+    99%{content:"  Graphi";}
+    99%{content:"  Graph";}
+    99%{content:"  Grap";}
+    99%{content:"  Gra";}
+    99%{content:"  Gr";}
+    100%{content:"  G";}
+}
+.clr{
+    clear: both;
+}
+.skills{
+    width: 50%;
+}
+.Line{
+    width: 100px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.Line p{
+ color: #4e4e4e;
+}
+ h5{
+    font-size: 30px;
+}
+.about{
+    background-color: #f5f5f5;
+ 
+}
+.cent{
+    width: 50px;
+    height: 5px;
+    background-color:blue ;
+margin: auto;
+   
+}
+h3{
+    font-size: 50px;
+}
+.cervs-items {
+    margin-top: 15px;
+
+}
+.cervs-items i{
+    margin-top: 15px;
+    transition: all .5s;
+    font-size: 50px;
+   padding: 25px;
+   border-radius: 50%;
+   border: 8px solid blue;
+}
+.cervs-items:hover i{
+    background-color: blue;
+    color: white;
+    border: 8px solid #8fc3ff;
+}
+.Services{
+
+background-color: #f5f5f5;
+}
+.break{
+    background-color:  #f5f5f5;
+}
+.iucon{
+    background-color: white;
+    border-radius: 10px;
+}
+.Work{
+width: 100%;
+height: 450px;
+    background-image: url(post-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+.Work i{
+    color: white;
+    font-size: 50px;
+    padding: 25px;
+    border-radius: 50%;
+    border: 8px solid  rgb(255, 252, 252);
+}
+.Work .one{
+    margin-top: 100px;
+    width: 25%;
+    text-align: center;
+}
+.Work p{
+    font-size: 35px;
+    color: white;
+}
+.layer{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    opacity: 50%;
+    background-color: rgb(65, 65, 221);
+}
+.ite img{
+    width: 100%;
+    height: 60%;
+    transition: all 1s;
+}
+.ite
+{
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 5px 2px rgb(202, 198, 198);
+    position: relative;
+
+}
+.ite span{
+    color:#17a2b8;
+}
+.hmge a{
+text-decoration: none;
+}
+.ite:hover img{
+    transform: scale(1.2);
+}
+.ite i{
+    font-size :35px;
+    border: 2px solid #17a2b8;
+    border-radius: 50%;
+    padding:5px 5px;
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+
+}
+.blog{
+    width: 100%;
+    height: 300px; 
+    background-image: url(overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.adipisicing img{
+    width: 100%;
+}
+.adipisicing a{
+   color: black;
+   text-decoration: none;
+   font-size: 25px;
+   transition: all 1s;
+
+}
+.adipisicing .par{
+    left:50%;
+    transform: translatey(-50%);
+    color: white;
+    border-radius: 3px;
+}
+.adipisicing .por{
+    transform: translatex(32%);
+
+
+}
+.om img{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px; 
+}
+.om a{
+    margin-left: 10px;
+}
+.adipisicing a:hover {
+    color: blue;
+}
+.adipisicing{
+   background-color:#f5f5f5 ;
+}
+.hwm{
+    background-color: white;
+}
+.adipisicing .dd{
+    border: 1px solid rgb(216, 209, 209);
+}
